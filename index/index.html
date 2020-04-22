@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WEB DESIGN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="../js/default.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="all"></a>
+        <div class="nav">
+            <h2 class="hidden">메뉴</h2>
+            <nav class="gnb__menu">
+                <ul>
+                    <li>
+						<a href="../home.html"><span>HOME</span></a>
+					</li>
+                    <li>
+                        <a href="index.html"><span>WEB DESIGN</span></a>
+                    </li>
+                    <li>
+                        <a href="../profile.html"><span>PROFILE</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="close"></a>
+        </div>
+    </header>
+    <main class="bg__color">
+        <div class="wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <section>
+                            <div class="section__left">
+                                <h3 class="section__tit">eone</h3>
+                                <div class="section__subtit">개인작업 / 리브랜딩, 고정형 웹</div>
+                                <div class="section__desc">eone은 일반적인 시계들과의 차별화된 의미를 가지며 소비자들과의 친밀한 관계 형성에 영향력을 준다.
+                                    타임피스라는 특별한 이름을 갖고있는 eone은 디자인의 목적과 본질을 명확히 파악하여 그 역할을 제대로 수행하는 올바른 브랜드이다.
+                                </div>
+                                <div class="section_btn">
+                                    <button type="button" onclick="location.href='essay_eone.html'">에세이 보러가기</button>
+                                    <button type="button" onclick="window.open('https://jungjooo.github.io/portfolio/eone/eone.html')">html 방문하기</button>
+                                </div>
+                            </div>
+                            <div class="section__right">
+                                <img src="../images/device_eone.png" alt="디바이스 이미지">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-slide">
+                        <section>
+                            <div class="section__left">
+                                <h3 class="section__tit">nendo</h3>
+                                <div class="section__subtit">개인작업 / 리브랜딩, 반응형 웹</div>
+                                <div class="section__desc">브랜드의 철학을 담은 이름 nendo는 클라이언트의 기대를 알아내는 뛰어난 업무 처리방식과 유연한 사고법이 존재하는 디자인 전문가 집단이다.
+                                    안정적이고 높은 품질의 디자인으로 승부하는 브랜드로 평가되고 있다.
+                                </div>
+                                <div class="section_btn">
+                                    <button type="button" onclick="location.href='essay_nendo.html'">에세이 보러가기</button>
+                                    <button type="button" onclick="window.open('https://jungjooo.github.io/portfolio/nendo/nendo.html')">html 방문하기</button>
+                                </div>
+                            </div>
+                            <div class="section__right">
+                                <img src="../images/device_nendo.png" alt="디바이스 이미지">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-slide">
+                        <section>
+                            <div class="section__left">
+                                <h3 class="section__tit">SPIN Protocol</h3>
+                                <div class="section__subtit">실무작업 / 브랜딩, 반응형 웹</div>
+                                <div class="section__desc">스핀 프로토콜은 Supplier와 Influencer를 직접 연결해주는 플랫폼이다. 블록 체인 기술을 활용하여 투명하고 공정한 e-commerce 시장을 만들기 위해 중개인을 제거한 Influencer 마케팅을 통해 탈중앙화된 전자 상거래 D-commerce를 구현하는 것이 목표이다.</div>
+                                <div class="section_btn">
+                                    <button type="button" onclick="location.href='essay_spin.html'">에세이 보러가기</button>
+                                    <button type="button" onclick="window.open('https://jungjooo.github.io/portfolio/spinprotocol/login.html')">Influencer로 방문하기</button>
+                                    <button type="button" onclick="window.open('https://jungjooo.github.io/portfolio/spinprotocol/admin/dash_board.html')">Admin 방문하기</button>
+                                </div>
+                            </div>
+                            <div class="section__right">
+                                <img src="../images/device_spin.png" alt="디바이스 이미지">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                slidesPerView: 1,
+                spaceBetween: 30,
+                mousewheel: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </main>
+</body>
+</html>
