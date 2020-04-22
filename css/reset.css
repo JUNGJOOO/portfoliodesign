@@ -1,0 +1,103 @@
+@charset "utf-8";
+html {
+	/* font-size: 100.01%; */
+	font-size: 14px;
+}
+body {
+	font-family: jjfont_gotham, 'Noto Sans KR', sans-serif;
+	line-height: 1.6;
+	color:#4f4e4f;
+	margin:0;
+	padding:0;
+}
+br	{
+	letter-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:1em;
+}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption, input {
+	margin:0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+}
+img {
+	border:0;
+}
+table {
+	width:100%;
+	border-collapse: collapse;
+	font-size:1em;
+}
+table caption {
+	display:none;
+}
+a:link, a:visited {
+	color: black;
+	text-decoration:none;
+}
+a:hover {
+	color: black;
+	text-decoration:none;
+}
+fieldset {
+	border:0;
+}
+legend {
+	display:none;
+}
+select, input, textarea {
+	font:normal 1em "애플고딕", AppleGothic, "굴림", gulim, Arial, Verdana, sans-serif;
+	color:#797b80;
+	vertical-align:middle;
+}
+em {
+	font-style: normal;
+}
+hr {
+	clear:both;	
+	height:0; 
+	visibility:hidden; 
+	overflow:hidden;
+	display: none;
+}
+/*  */
+button {
+	border: 0 none;
+	background-color:transparent;
+	cursor: pointer;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+}
+
+@font-face {
+	font-family: 'jjfont_gotham';
+	src:url('../font/Gotham-Medium.eot');
+	src:url('../font/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+	    url('../font/Gotham-Medium.woff') format('woff'),
+		url('../font/Gotham-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'jjfont_gotham';
+	src:url('../font/Gotham-Book.eot');
+	src:url('../font/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+	    url('../font/Gotham-Book.woff') format('woff'),
+		url('../font/Gotham-Book.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'jjfont_gotham';
+	src:url('../font/Gotham-Light.eot');
+	src:url('../font/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+	    url('../font/Gotham-Light.woff') format('woff'),
+		url('../font/Gotham-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}

@@ -1,0 +1,952 @@
+.sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-color: #f3f3f3;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #4f4e4f;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap__essay {
+  background-color: #fff;
+  text-align: left;
+}
+
+.wrap__essay section {
+  padding: 120px 0;
+}
+
+.wrap__essay section .wrap__box {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.wrap__essay section .wrap__box .box + .box {
+  padding-top: 80px;
+}
+
+.wrap__essay section .wrap__box .tit {
+  padding-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4f4e4f;
+}
+
+.wrap__essay section .wrap__box .subtit {
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+  color: #4f4e4f;
+}
+
+.wrap__essay section .wrap__box .desc {
+  font-size: 1rem;
+  line-height: 2.7rem;
+  color: #797979;
+}
+
+.wrap__essay .bg__gray {
+  background-color: #f3f3f3;
+}
+
+.wrap__essay .bg__black {
+  background-color: #222;
+}
+
+.wrap__essay .bg__black .wrap__box div {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wrap__essay .bg__black .wrap__box div .desc {
+  font-weight: 300;
+}
+
+.wrap__essay .bg__black2 {
+  background-color: #000;
+}
+
+.wrap__essay .bg__black2 .wrap__box div {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.intro.eone .desc + .desc {
+  margin-top: 30px;
+}
+
+.intro.spin {
+  font-size: 0;
+}
+
+.intro.spin .wrap__box .box {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.intro.spin .wrap__box .box:first-child {
+  width: 60%;
+  padding-right: 10%;
+}
+
+.intro.spin .wrap__box .box:last-child {
+  width: 30%;
+}
+
+.intro.spin .wrap__box .box + .box {
+  padding-top: 0;
+}
+
+.intro.spin .wrap__box .box .intro__desc {
+  font-size: 1rem;
+  line-height: 2.7rem;
+  color: #797979;
+  word-break: break-all;
+}
+
+.intro.spin .wrap__box .box .intro__desc + .intro__desc {
+  margin-top: 20px;
+}
+
+.intro.spin .wrap__box .box .desctit {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #4f4e4f;
+}
+
+.intro.spin .wrap__box .box .intro__name {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #797979;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+
+.intro.spin .wrap__box .box .desc__date {
+  margin-top: 25px;
+  font-size: 1rem;
+  line-height: 2.7rem;
+  color: #797979;
+}
+
+.intro.spin .wrap__box .box__left .intro__desc {
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+.understand.eone .caption {
+  padding: 30px 0 0 0;
+  font-size: 0;
+  text-align: center;
+}
+
+.understand.eone .caption li {
+  position: relative;
+  display: inline-block;
+  width: calc((100% / 4) - 10px);
+  height: 11vw;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.understand.eone .caption li img {
+  width: 11vw;
+}
+
+.understand.eone .caption li p {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-align: left;
+  color: #797979;
+  opacity: 0.7;
+}
+
+.understand.eone .caption li + li {
+  margin-left: 10px;
+}
+
+.understand.eone .caption .caption__img2 {
+  text-align: right;
+}
+
+.understand.eone .caption img {
+  width: 100%;
+}
+
+.understand.spin .desc + .desc {
+  margin-top: 20px;
+}
+
+.understand.spin p {
+  font-weight: 700;
+}
+
+.understand.spin .understand__img {
+  padding: 30px 0;
+}
+
+.spinelement img {
+  width: 100%;
+}
+
+.problem.nendo .caption {
+  padding: 2rem 0;
+  width: 100%;
+  font-size: 0;
+}
+
+.problem.nendo .caption .caption__img1 img {
+  width: 100%;
+}
+
+.problem.nendo .desc + .desc {
+  margin-top: 30px;
+}
+
+.problem.eone .caption {
+  padding: 2rem 0;
+  width: 100%;
+  font-size: 0;
+}
+
+.problem.eone .caption .caption__img1 img {
+  width: 100%;
+}
+
+.problem.eone .caption .caption__img2 img {
+  width: 100%;
+}
+
+.problem.eone .desc + .desc {
+  margin-top: 30px;
+}
+
+.solution.nendo .solution__bg {
+  overflow: hidden;
+  position: relative;
+  margin: 100px 0;
+  width: 100%;
+  height: 26vw;
+  background: url(../images/nendo/nendo_solution-bg3.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position: center 0;
+}
+
+.solution.nendo .solution__bg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 55%;
+}
+
+.solution.nendo .column__tit {
+  font-size: 1rem;
+  color: #4f4e4f;
+}
+
+.solution.nendo .column__message {
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  border: 2px solid red;
+}
+
+.solution.nendo .column__message p {
+  font-size: 2rem;
+  text-align: center;
+  color: #797979;
+}
+
+.solution.nendo .column__strategy {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.solution.nendo .column__strategy img {
+  width: 80%;
+}
+
+.solution.eone {
+  overflow: hidden;
+}
+
+.solution.eone .wrap__box {
+  position: relative;
+}
+
+.solution.eone .wrap__box .box {
+  position: relative;
+  z-index: 10;
+}
+
+.solution.eone .wrap__box + .wrap__box {
+  padding-top: 80px;
+  margin-top: 20px;
+}
+
+.solution.eone .solution__inbox {
+  margin: 30px 0;
+  font-size: 0;
+}
+
+.solution.eone .solution__inbox > div {
+  width: calc(50% - 16px);
+  display: inline-block;
+  padding-left: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.solution.eone .solution__inbox > div strong {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.solution.eone .solution__inbox > div p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.solution.eone .solution__story {
+  position: relative;
+  margin: 30px 0 0 0;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 3rem;
+  padding-left: 20px;
+}
+
+.solution.eone .solution__story:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.solution.eone .solution__bg1 {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 0;
+  width: 55%;
+}
+
+.solution.eone .solution__bg2 {
+  position: absolute;
+  top: -6%;
+  right: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  z-index: 0;
+  width: 55%;
+}
+
+.solution.eone .solution__bg3 {
+  position: absolute;
+  top: 45%;
+  left: -50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 0;
+  width: 150%;
+}
+
+.solution.eone .column__strategy {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.solution.eone .column__strategy img {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.solution.eone .column__strategy .column__strategy--video {
+  width: 100%;
+  position: relative;
+}
+
+.solution.eone .column__strategy .column__strategy--video:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 20;
+  width: 99%;
+  height: 99%;
+  background: url(../images/eone/vd_bg_poster.png) no-repeat;
+  background-size: 100% auto;
+}
+
+.solution.eone .column__strategy .column__strategy--video iframe {
+  width: 49vw;
+  height: 27.5vw;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border: 1px solid #333;
+}
+
+.font.nendo {
+  position: relative;
+}
+
+.font.nendo img {
+  width: 100%;
+}
+
+.font.nendo .caption__kr {
+  margin-bottom: 60px;
+}
+
+.font.nendo .desc + .desc {
+  margin-top: 30px;
+}
+
+.font.eone {
+  position: relative;
+}
+
+.font.eone img {
+  width: 100%;
+}
+
+.font.eone .caption__kr {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.font.eone .caption__kr img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.font.eone .desc + .desc {
+  margin-top: 30px;
+}
+
+.wire.nendo .wire_grid {
+  margin: 80px auto 0;
+  width: 95%;
+  font-size: 0;
+}
+
+.wire.nendo .wire_grid li {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+}
+
+.wire.nendo .wire_grid li .wire__subtit {
+  padding-bottom: 30px;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+  color: #797979;
+}
+
+.wire.nendo .wire_grid li img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wire.nendo .wire_grid li.wire_grid1 {
+  width: 50%;
+}
+
+.wire.nendo .wire_grid li.wire_grid1 img {
+  width: calc(50% - 5px);
+}
+
+.wire.nendo .wire_grid li.wire_grid1 img:last-child {
+  margin-left: 10px;
+}
+
+.wire.nendo .wire_grid li.wire_grid2 {
+  margin-left: 40px;
+  width: calc(30% - 40px);
+}
+
+.wire.nendo .wire_grid li.wire_grid2 img {
+  width: calc(50% - 5px);
+}
+
+.wire.nendo .wire_grid li.wire_grid2 img:last-child {
+  margin-left: 10px;
+}
+
+.wire.nendo .wire_grid li.wire_grid3 {
+  margin-left: 30px;
+  width: calc(20% - 30px);
+}
+
+.wire.nendo .wire_grid li.wire_grid3 img {
+  width: 50%;
+}
+
+.wire.eone .wire_grid {
+  margin: 80px auto 0;
+  width: 95%;
+  font-size: 0;
+  vertical-align: top;
+}
+
+.wire.eone .wire_grid .wire__subtit {
+  padding-bottom: 30px;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+  color: #797979;
+}
+
+.wire.eone .wire_grid .wire_paper {
+  margin-right: 40px;
+  width: calc(25% - 40px);
+  vertical-align: top;
+}
+
+.wire.eone .wire_grid img {
+  width: 37.5%;
+  vertical-align: top;
+}
+
+.progress.nendo, .progress.eone {
+  position: relative;
+}
+
+.progress.nendo .bg__graphic, .progress.eone .bg__graphic {
+  position: absolute;
+  bottom: -44%;
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+  width: 100%;
+}
+
+.progress.nendo .bg__graphic img, .progress.eone .bg__graphic img {
+  width: 100%;
+}
+
+.progress.eone .progress_grid .subtit {
+  color: #fff;
+}
+
+.progress .progress_grid {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.progress .progress_grid ul {
+  display: inline-block;
+  font-size: 0;
+}
+
+.progress .progress_grid ul li {
+  display: inline-block;
+  width: calc(50% - 15px);
+  vertical-align: top;
+}
+
+.progress .progress_grid ul li + li {
+  margin-left: 30px;
+}
+
+.progress .progress_grid ul li .subtit {
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.progress .progress_grid ul li img {
+  width: 100%;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.result.nendo {
+  padding-top: 470px;
+}
+
+.result.nendo .tit {
+  position: relative;
+  z-index: 10;
+}
+
+.result.nendo img {
+  margin-top: -40px;
+  width: 107%;
+}
+
+.result.eone img {
+  width: 100%;
+}
+
+.response.nendo {
+  position: relative;
+  padding-top: 380px;
+  padding-bottom: 500px;
+}
+
+.response.nendo ul {
+  padding-top: 25%;
+  padding-bottom: 15%;
+  width: 100%;
+  font-size: 0;
+}
+
+.response.nendo ul ::-webkit-scrollbar {
+  width: 13px;
+}
+
+.response.nendo ul ::-webkit-scrollbar-track {
+  background-color: #f3f3f3;
+  border-left: 1px solid #aaa;
+}
+
+.response.nendo ul ::-webkit-scrollbar-thumb {
+  background: #fafafa;
+  border: 1px solid #aaa;
+}
+
+.response.nendo ul ::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+.response.nendo ul ::-webkit-scrollbar-thumb:active {
+  background: #aaa;
+}
+
+.response.nendo ul ::-webkit-scrollbar-button {
+  position: relative;
+  width: 10px;
+  height: 15px;
+  border: 1px solid #aaa;
+  background-color: #ccc;
+}
+
+.response.nendo ul .response__left {
+  position: relative;
+  display: inline-block;
+  width: 55%;
+  height: 33.5vw;
+  vertical-align: top;
+  text-align: right;
+}
+
+.response.nendo ul .response__left > img {
+  position: relative;
+  right: 0;
+  width: 85%;
+}
+
+.response.nendo ul .response__left .response__left--img {
+  overflow: auto;
+  position: absolute;
+  top: 10%;
+  right: 6.6%;
+  width: 71.5%;
+  height: 77.8%;
+}
+
+.response.nendo ul .response__left .response__left--img img {
+  width: 100%;
+}
+
+.response.nendo ul .response__left .response__left--bg {
+  overflow: hidden;
+  position: absolute;
+  left: -15%;
+  top: -35%;
+  width: 72%;
+  height: 175%;
+  text-align: left;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.response.nendo ul .response__left .response__left--bg img {
+  width: 100%;
+}
+
+.response.nendo ul .response__right {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  height: 33.5vw;
+  text-align: left;
+}
+
+.response.nendo ul .response__right .response__phone {
+  position: absolute;
+  left: 18%;
+  bottom: 0;
+  width: 43%;
+}
+
+.response.nendo ul .response__right .response__top {
+  position: absolute;
+  bottom: 53%;
+  left: 18%;
+  z-index: 10;
+  width: 43%;
+}
+
+.response.nendo ul .response__right .response__bottom {
+  position: absolute;
+  bottom: 1.6%;
+  left: 18%;
+  z-index: 10;
+  width: 43%;
+}
+
+.response.nendo ul .response__right .response__right--img {
+  overflow: auto;
+  position: absolute;
+  bottom: 3.1%;
+  left: 21.7%;
+  width: 35.8%;
+  height: 52%;
+}
+
+.response.nendo ul .response__right .response__right--img img {
+  width: 99%;
+}
+
+.response.nendo ul .response__right .response__right--bg {
+  overflow: hidden;
+  position: absolute;
+  right: -11%;
+  top: -35%;
+  width: 60%;
+  height: 175%;
+  text-align: right;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.response.nendo ul .response__right .response__right--bg img {
+  width: 100%;
+}
+
+.response.nendo .bg__graphic {
+  position: absolute;
+  bottom: 67%;
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+}
+
+.response.nendo .bg__graphic img {
+  width: 100%;
+}
+
+.response.nendo button {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #797979;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 5px 5px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.response.nendo button:hover {
+  -webkit-box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6), -2px -2px 4px rgba(255, 255, 255, 0.4), 2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6), -2px -2px 4px rgba(255, 255, 255, 0.4), 2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.response.nendo button:active {
+  -webkit-box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7), inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.075), inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7), inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.075), inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.response.eone {
+  position: relative;
+  height: 96vw;
+  background-color: #191919;
+}
+
+.response.eone ::-webkit-scrollbar {
+  width: 13px;
+}
+
+.response.eone ::-webkit-scrollbar-track {
+  background-color: #333;
+  border-left: 1px solid #333;
+}
+
+.response.eone ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+.response.eone ::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+.response.eone ::-webkit-scrollbar-thumb:active {
+  background: #aaa;
+}
+
+.response.eone ::-webkit-scrollbar-button {
+  position: relative;
+  width: 10px;
+  height: 15px;
+  border: 1px solid #555;
+  background-color: #444;
+}
+
+.response.eone > img {
+  width: 100%;
+}
+
+.response.eone .response__img {
+  position: relative;
+  background: url(../images/eone/eone_response_bg.jpg) no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+}
+
+.response.eone .response__img .response__book {
+  width: 100%;
+}
+
+.response.eone .response__img .response__box {
+  position: absolute;
+  top: 27.5vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 57.2%;
+  height: 36.2vw;
+  overflow: auto;
+}
+
+.response.eone .response__img .response__box img {
+  width: 100%;
+}
+
+.response.eone button {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.response.eone button:hover {
+  background: #151515;
+  -webkit-box-shadow: inset 7px 7px 9px #080808,  inset -7px -7px 9px #222222;
+          box-shadow: inset 7px 7px 9px #080808,  inset -7px -7px 9px #222222;
+}
+
+.grid.nendo, .grid.eone {
+  padding: 120px 0 0 0;
+  font-size: 0;
+}
+
+.grid.nendo .wrap__box li > div, .grid.eone .wrap__box li > div {
+  padding: 0;
+  display: inline-block;
+  line-height: 2.7rem;
+  vertical-align: top;
+}
+
+.grid.nendo .wrap__box li .subtit, .grid.eone .wrap__box li .subtit {
+  margin-right: 20px;
+  width: 120px;
+}
+
+.grid.nendo .wrap__box .grid__px, .grid.eone .wrap__box .grid__px {
+  padding: 70px 0 20px;
+}
+
+.grid.nendo img, .grid.eone img {
+  width: 100%;
+}
+
+.grid.nendo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.coding.nendo, .coding.eone {
+  position: relative;
+  background: url(../images/nendo/nendo_coding_bg4.jpg) no-repeat;
+  background-size: 200vw auto;
+  background-position: center;
+}
+
+.coding.nendo .coding__img1, .coding.eone .coding__img1 {
+  overflow: hidden;
+  position: relative;
+  margin: 80px 0;
+  height: 30vh;
+  width: 100%;
+}
+
+.coding.nendo .coding__img1 img, .coding.eone .coding__img1 img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+}
+
+.coding.nendo .coding__img2, .coding.eone .coding__img2 {
+  margin: 50px auto;
+  width: 70%;
+  font-size: 0;
+}
+
+.coding.nendo .coding__img2 img, .coding.eone .coding__img2 img {
+  display: inline-block;
+  width: calc(50% - 10px);
+}
+
+.coding.nendo .coding__img2 img + img, .coding.eone .coding__img2 img + img {
+  margin-left: 20px;
+}
+
+.coding.nendo .desc + .desc, .coding.eone .desc + .desc {
+  margin-top: 30px;
+}
+
+.coding.eone .desc + .desc {
+  margin-top: 30px;
+}
+
+.learned.nendo .desc + .desc, .learned.eone .desc + .desc {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=project.css.map */
